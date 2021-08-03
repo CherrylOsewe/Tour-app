@@ -1,0 +1,18 @@
+p {
+  font-family: "Comfortaa", cursive;
+}
+.container-fluid {
+  display: inline;
+}
+.container-fluid img {
+  width: 800px;
+  float: left;
+  padding: 12px;
+}
+.container-fluid div .p {
+  font-size: 30px;
+  text-align: center;
+  padding: 12px;
+
+
+}
