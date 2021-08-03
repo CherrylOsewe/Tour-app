@@ -3,29 +3,182 @@ body {
 
 }
 #home {
-    background-image: url("");
+    background-image: url("/images/home1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     text-align: center;
-    padding-bottom: 8%;
-     background-color: rgba(0, 0, 0, 0.404);
-    background-blend-mode: hard-light;
-}
-.logo1 {
-    width: 200px;
-    clip-path: circle();
-
+    padding-top: 10px;
+    padding-bottom: 5%;
+    background-color: rgba(0, 0, 0, 0.541);
+    background-blend-mode: soft-light;
 }
 .intro {
     font-family: 'Style Script', cursive; 
     font-size: 60px;
     font-weight: bold;
    color: white;
+   padding-top: 7%;
 }
 .lan {
     font-family: 'Style Script', tangerine;
     font-size: 35px;
     color: white;
 }
+.nxt {
+    width: 8%;
+    height: 30px;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.583);
+    color: white;
+    border-radius: 5%;
+}
+.btn1:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+.nav1 {
+    background-color: #456abaec;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    overflow: auto;
+}
+.logo1 {
+    color: white;
+    height: 50px;
+}
+.identity {
+    float: left;
+    display: flex;
+}
+.identity p {
+    font-size: 25px;
+
+}
+.nav1 ul li {
+ text-decoration: none;
+ color: white;
+ padding: 5px 20px;
+ transition: all .5s ease;
+}
+.head1 {
+    text-align: center;
+}
+.head2 {
+    text-align: center;
+}
+.nav1 ul li:hover {
+    background-color: rgba(255, 255, 255, 0.349);
+    color: black;
+    box-shadow: 0 0 10px white;
+    border-bottom: 10px;
+}
+a {
+    color: white;
+}
+.clear {
+    clear: both;
+}
+nav ul {
+    float: right;
+    list-style: none;
+}
+nav li {
+    float: left;
+    margin: 0rem 2rem;
+}
+#countries {
+    background: #262626;
+    width: 1200px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#countries .box {
+    position: relative;
+    width: 330px;
+    height: 300px;
+    background: #ff0;
+    margin: 30px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+#countries .box .imgBox {
+    position: relative;
+}
+#countries .box .imgBox img {
+    width: 100%;
+    height: 330px;
+    transition: transform 2s;
+}
+#countries .box:hover .imgBox img {
+transform: scale(1.1);
+}
+#countries .box .details {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+#countries .box:hover .details {
+    transform: scaleY(1);
+}
+#countries .box .details .content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 45%;
+    color: #fff;
+}
+#countries .box2 {
+    position: relative;
+    width: 530px;
+    height: 300px;
+    background: #ff0;
+    margin: 30px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+#countries .box2 .imgBox {
+    position: relative;
+}
+#countries .box2 .imgBox img {
+    width: 100%;
+    height: 330px;
+    transition: transform 2s;
+}
+#countries .box2:hover .imgBox img {
+transform: scale(1.1);
+}
+#countries .box2 .details {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+#countries .box2:hover .details {
+    transform: scaleY(1);
+}
+#countries .box2 .details .content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 45%;
+    color: #fff;
+}
+
