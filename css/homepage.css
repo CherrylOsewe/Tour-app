@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+
+}
+#home {
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    padding-bottom: 8%;
+     background-color: rgba(0, 0, 0, 0.404);
+    background-blend-mode: hard-light;
+}
+.logo1 {
+    width: 200px;
+    clip-path: circle();
+
+}
+.intro {
+    font-family: 'Style Script', cursive; 
+    font-size: 60px;
+    font-weight: bold;
+   color: white;
+}
+.lan {
+    font-family: 'Style Script', tangerine;
+    font-size: 35px;
+    color: white;
+}
