@@ -1,7 +1,6 @@
 body {
   font-family: "Comfortaa", cursive;
 }
-
 .container-fluid {
   display: inline;
 }
@@ -17,13 +16,26 @@ body {
   text-align: center;
   padding: 12px;
 }
-li{
-font-size: 20px;
+li {
+  font-size: 20px;
 }
-h2 ,h3, h5 {
+h2,
+h3,
+h5 {
   text-decoration: underline;
   text-align: center;
 }
-.block{
+.block {
   background-color: #39c5c6;
+}
+.price {
+  border: 3px solid;
+  margin: 20px 60px 20px 60px;
+  background-color: #39c5c6;
+  text-align: center;
+  border-radius: 25px;
+}
+.book {
+  text-align: center;
+  font: size 40px;
 }
