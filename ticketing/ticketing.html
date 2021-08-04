@@ -7,10 +7,162 @@
     <title> Tour App</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/ticketing/css/ticketing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Lobster+Two:ital@1&family=Rye&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- HEADER PART -->
     <div class="container-md">
-        <div></div>
+        <div class="header">
+            <h1>TICKETING!</h1>
+            <p>
+                We link you up to your destination within the 5 countrieslisted below with else. Make your booking today by filling in the form bellow...<br>
+                We get everything done for you before, during and your way back from your trip.<br>
+                We also offer tourguide services so no need to worry on how to locate a preferred hotel location or the place you want to visit
+            </p>
+        </div>
     </div>
+    <div class="container-md">
+        <div class="countries">
+            <div class="kenya">
+                <img src="/ticketing/assets/Flag-Kenya.jpg" alt="Kenyan-flag" height="100px">
+                <p>
+                    <strong>KENYA</strong>
+                </p>
+            </div>
+            <div class="france">
+                <img src="/ticketing/assets/France.webp" alt="french-flag" height="100px">
+                <p>
+                  <strong>FRANCE</strong>
+              </p>
+            </div>
+            <br>
+            <div class="egypt">
+                <img src="/ticketing/assets/Egypt.png" alt="egyptian-flag" height="100px">
+                <p>
+                    <strong>EGYPT</strong>
+                </p>
+            </div>
+            <div class="dubai">
+              <img src="/ticketing/assets/Dubai.png" alt="dubian-flag" height="100px">
+              <p>
+                  <strong>DUBAI</strong>
+              </p>
+          </div>
+          <div class="maldives">
+            <img src="/ticketing/assets/Maldives.png" alt="maldavian-flag" height="100px">
+            <p>
+                <strong>MALDIVES</strong>
+            </p>
+        </div>
+        </div>
+    </div>
+    <br>
+    <!-- BOOKINGS -->
+    <div class="container-md" id="book-here">
+        <div class="book-overlay">
+            <div class="controls-top text-center" id="book-now">
+                <h2>BOOK YOUR TICKET </h2>
+            </div>
+            <div class="row" style="padding-left:20px;">
+                <div class="col-sm-7">
+                  <h4>FILL IN YOUR DETAILS:</h4>
+                  <form action="">
+                      <label for="select">Select the type of ticket:</label><br>
+                      <select class="browser-default custom-select custom-select-md mb-3 name" id="tickets">
+                        <option selected value="choose">Choose your mode:</option>
+                        <option value="business class">Business-class Ticket</option>
+                        <option value="economy">Economy Ticket</option>
+                      </select>
+                      <br>
+                    <label for="select"> Choose your Destination</label><br>
+                    <select class="browser-default custom-select custom-select-md mb-3" id="destination">
+                      <option selected value="choose">Select your destination here</option>
+                      <option value="kenya">Kenya</option>
+                      <ul class="dropdown-menu">
+                        <li class="dropdown-menu">
+                        <li>Sarova Stanley</li>
+                      </ul>
+                    </li>
+                      <option value="maldaves">Maldaves</option>
+                      <option value="egypt">Egypt</option>
+                      <option value="france">France</option>
+                      <option value="dubai">Dubai</option>
+                    </select>
+                    <br>
+                    <label for="airlines">Choose your airline</label><br>
+                      <select class="browser-default custom-select custom-select-md mb-3" id="flight">
+                          <option selected value="choose">Select your preferred airline</option>
+                        <option value="K.A">KENYA AIRWAYS</option>
+                        <option value="KLM">KLM ROYAL DUTCH AIRLINES</option>
+                        <option value="ethiopia">EMIRATES</option>
+                        <option value="ethiopia">ETHIOPIAN AIRLINES</option>
+                        <option value="qatar">QATAR</option>
+                      </select>
+                      <br>
+                      <label for="airlines">Choose your prefered Hotel</label><br>
+                      <select class="browser-default custom-select custom-select-md mb-3" id="flight">
+                          <option selected value="choose">hotel</option>
+                        <option value="K.A">MASAI MARA</option>
+                        <option value="KLM">SWAHILI BEACH RESORT</option>
+                        <option value="ethiopia">SAROVA STANLEY</option>
+                      </select>
+                      <br>
+                      <button id="final-Booking" type="button" class="btn btn-primary proceed" onclick="finalBooking()">Proceed</button>        
+                </form>
+                      <div class="row">
+                        <div class="col-sm-7">
+                          
+                         <div class="choise">
+                            <h2>You Booked:</h2>
+                            <div id="your-booking">
+                              <table class="table table-sm  bookingtable">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">airline</th>
+                                    <th scope="col">Destination</th>
+                                    <th scope="col">type of ticket</th>
+                                    <th scope="col">origin</th>
+                                    <th scope="col">Total</th>
+                                  </tr>
+                                </thead>
+                                <tbody id="bookingssmade">
+                                  <tr>
+                                    <td id="airlinename"></td>
+                                    <td id="destinationname"></td>
+                                    <td id="typeofticket"></td>
+                                    <td id="originname"></td>
+                                    <td id="totals"></td>
+                                  </tr>                  
+                                </tbody>
+                              </table>
+                              <p id="bookingtotal"></p>
+                              <p id="totalbill"></p> 
+                              <p id="addedprice">Booking Fee will cost sh. 5,000</p>
+                              <p id="finallmessage"></p>
+                            </div>
+                            <div class="check">
+                              <form action="">
+                                <div class="form-group">
+                                  <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                                  <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
+                                  <input type="text" id="location" class="form-control mb-3" placeholder="Current location">
+                                  <button class="btn btn-success" id="final-booking">Make your booking</button>
+                                </div>
+                              </form>
+                          </div>     
+                        </div>
+                      </div>
+                      <div id="information">
+                        <h4>YOUR BOOKING</h4>
+                        <p>Your booking have been received.</p>
+                        <p>Make sure you have submitted the correct email and contact.</p>
+                        <p>Incase of any comment or complaint, Please reach out to us as fast as possible.</p>
+                        <p id="regards">Regards, Management</p>
+                      </div>
+                </form>
+               </div>
 </body>
 </html>
