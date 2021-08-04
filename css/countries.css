@@ -1,0 +1,41 @@
+body {
+  font-family: "Comfortaa", cursive;
+}
+.container-fluid {
+  display: inline;
+}
+.container-fluid img {
+  width: 800px;
+  float: left;
+  margin: 30px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px grey;
+}
+.container-fluid div p {
+  font-size: 25px;
+  text-align: center;
+  padding: 12px;
+}
+li {
+  font-size: 20px;
+}
+h2,
+h3,
+h5 {
+  text-decoration: underline;
+  text-align: center;
+}
+.block {
+  background-color: #39c5c6;
+}
+.price {
+  border: 3px solid;
+  margin: 20px 60px 20px 60px;
+  background-color: #39c5c6;
+  text-align: center;
+  border-radius: 25px;
+}
+.book {
+  text-align: center;
+  font: size 40px;
+}
