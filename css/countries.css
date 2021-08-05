@@ -39,3 +39,61 @@ h5 {
   text-align: center;
   font: size 40px;
 }
+.nav1 {
+  background-color: #456abaec;
+  color: white;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+}
+.logo1 {
+  color: white;
+  height: 50px;
+}
+.identity {
+  float: left;
+  display: flex;
+}
+.identity p {
+  font-size: 25px;
+}
+.nav1 ul li {
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  transition: all 0.5s ease;
+}
+.head1 {
+  text-align: center;
+}
+.head2 {
+  text-align: center;
+}
+.nav1 ul li:hover {
+  background-color: rgba(255, 255, 255, 0.349);
+  color: black;
+  box-shadow: 0 0 10px white;
+  border-bottom: 10px;
+}
+header a {
+  color: white;
+}
+.clear {
+  clear: both;
+}
+nav ul {
+  float: right;
+  list-style: none;
+}
+nav li {
+  float: left;
+  margin: 0rem 2rem;
+}
+h2{
+  background-color: #39c5c6;
+  height: 140px;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
