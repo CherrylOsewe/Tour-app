@@ -64,6 +64,7 @@ body {
  color: white;
  padding: 5px 20px;
  transition: all .5s ease;
+ font-size: 18px;
 }
 .head1 {
     text-align: center;
@@ -73,6 +74,7 @@ body {
     text-align: center;
     font-size: 30px;
     padding-left: 350px;
+    
 }
 .aboutimg {
     background-blend-mode: hard-light;
@@ -89,7 +91,7 @@ body {
 }
 .head2 {
     text-align: center;
-    padding-right: 500px;
+    padding-right: 450px;
     font-size: 30px;
 }
 .nav1 ul li:hover {
