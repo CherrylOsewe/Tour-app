@@ -181,4 +181,98 @@ transform: scale(1.1);
     padding: 45%;
     color: #fff;
 }
+#form_container {
+    text-align: center;
+    background: url("/images/contact.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.541);
+    background-blend-mode: soft-light;
+    height: 470px;
+    width: 100%;
+    color: white;
+}
+#form_container p {
+    font-size: 20px;
+}
+#message {
+    background: transparent;
+    width: 35%;
+    height: 180px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.89);
+}
+.conthead {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+#reused_form input {
+    width: 120%;
+    margin: 30px 0 30px;
+    height: 40px;
+    position: relative;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.89);
+    box-shadow: none;
+    font-size: 18px;
+     
+}
+#reused_form input#lname {
+    margin-left: 100%;
+}
+#reused_form label {
+    display: block;
+    transition: 0.5s;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#combo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    padding-left: 300px;
+}
+#maincont input {
+    width: 80%;
+    margin: 30px 0 30px;
+    height: 0px;
+    position: relative;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.849);
+    background-color: rgba(0, 0, 0, 0.486);
+    box-shadow: none;
+    text-align: center;
+    font-size: 18px;
+}
 
+#sendbtn {
+    height: 10%;
+    padding: 5px;
+    width: 7%;
+   font-size: 15px;
+    position: relative;
+    color: whitesmoke;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.521);
+    
+}
+.feature {
+    font-size: 20px;
+    padding: 50px;
+}
+.inner {
+    background: black;
+    color: white;
+    text-align: center;
+    
+}
+.logos {
+  word-spacing: 90px; 
+
+}
