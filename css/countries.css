@@ -4,7 +4,7 @@ body {
 .container-fluid {
   display: inline;
 }
-.container-fluid img {
+.container-fluid .row img {
   width: 800px;
   float: left;
   margin: 30px;
@@ -90,12 +90,22 @@ nav li {
   float: left;
   margin: 0rem 2rem;
 }
-h2{
+h2 {
   background-color: #39c5c6;
   height: 140px;
   text-align: center;
   color: white;
   font-size: 50px;
 }
-
-
+.feature {
+  font-size: 20px;
+  padding: 50px;
+}
+.inner {
+  background: rgba(0, 0, 0, 0.897);
+  color: rgba(255, 255, 255, 0.836);
+  text-align: center;
+}
+.logos {
+  word-spacing: 90px;
+}
