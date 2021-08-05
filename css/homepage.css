@@ -87,7 +87,7 @@ body {
     margin: 10px;
     
 }
-.about {
+body {
     font-size: 25px;
     font-family: "Comfortaa", cursive;
     
@@ -120,7 +120,7 @@ nav li {
     margin: 0rem 2rem;
 }
 #countries {
-    background-color: #456abaec;
+    background-color: #39c5c6;
     width: 1200px;
     margin: 70px auto 0;
     display: flex;
