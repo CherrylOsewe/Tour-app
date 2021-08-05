@@ -1,4 +1,6 @@
 
+
+
 body {
     margin: 0;
 
@@ -43,6 +45,7 @@ body {
     background-color: #456abaec;
     color: white;
     padding: 1rem;
+
     width: 97%;
     height: 40px;
     overflow: hidden;
@@ -93,6 +96,8 @@ body {
     text-align: center;
     padding-right: 450px;
     font-size: 30px;
+
+
 }
 .nav1 ul li:hover {
     background-color: rgba(255, 255, 255, 0.349);
@@ -215,6 +220,7 @@ transform: scale(1.1);
     background-attachment: fixed;
     background-color: rgba(0, 0, 0, 0.541);
     background-blend-mode: soft-light;
+
     height: 490px;
     width: 100%;
     color: white;
