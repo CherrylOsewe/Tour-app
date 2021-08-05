@@ -90,13 +90,14 @@ nav li {
   float: left;
   margin: 0rem 2rem;
 }
-h2 {
+h2{
   background-color: #39c5c6;
   height: 140px;
   text-align: center;
   color: white;
   font-size: 50px;
 }
+
 .feature {
   font-size: 20px;
   padding: 50px;
@@ -109,3 +110,4 @@ h2 {
 .logos {
   word-spacing: 90px;
 }
+
