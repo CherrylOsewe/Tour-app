@@ -1,9 +1,9 @@
-
-
-
 body {
     margin: 0;
 
+}
+h2{
+  text-decoration: underline;
 }
 #home {
     background-image: url("../images/home1.jpg");

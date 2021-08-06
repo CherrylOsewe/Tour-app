@@ -1,97 +1,195 @@
 body {
-    background-image: url(../assets/background.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  background-image: url(../assets/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+}
+.header  h1 {
+text-align: center;
+text-decoration: underline;
 }
 .countries {
   display: flex;
   justify-content: space-between;
-  background-color: orange;
+  background-color: white;
   padding: 20px;
 }
 .header {
-  background-color: teal;
+  background-color: #39c5c6;
   color: beige;
   text-align: center;
 }
 .book-overlay {
-    background-color: #151414;
-    color: white;
-    font-size: x-large;
-} 
-#make-booking{
-    background-attachment:scroll;
-    background-color: rgba(16, 16, 16, 0.7);
-    color: white;
-    padding-top: 4%;
-    padding-bottom: 4%;
+  background-color: #39c5c6;
+  color: white;
+  font-size: x-large;
+}
+#make-booking {
+  background-attachment: scroll;
+  background-color: rgba(16, 16, 16, 0.7);
+  color: white;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.booking-overlay {
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-bottom: 30px;
+  padding-left: 6%;
+}
+.choise {
+  display: none;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+td,
+th {
+  font-size: 20px;
+  color: white;
+}
+.choise h2 {
+  color: white;
+  text-align: left;
+}
+#your-booking {
+  color: white;
+  font-size: 30px;
+}
+#addedprice {
+  display: none;
+}
+#finallmessage {
+  display: none;
+  padding-top: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-size: 28px;
+}
+#regards {
+  text-align: center;
+  color: aliceblue;
+}
+#information {
+  padding-top: 5%;
+  font-size: 22px;
+  padding-right: 8%;
+  padding-left: 5%;
+  color: white;
+  text-align: center;
+}
+h4 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+.check {
+  display: none;
+}
+.check {
+  display: none;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.header p {
+  font-weight: 400;
+  font-size: x-large;
+}
+.kenya,
+p {
+  font-size: xx-large;
+}
+.nav1 {
+  background-color: #456abaec;
+  color: white;
+  padding: 1rem;
+  width: 100%;
+  height: 60px;
+}
+.logo1 {
+  color: white;
+  height: 50px;
+}
+.identity {
+  float: left;
+  display: flex;
+}
+.identity p {
+  font-size: 25px;
+}
+.nav1 ul li {
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  transition: all 0.5s ease;
+}
+.head1 {
+  text-align: center;
+}
+.head2 {
+  text-align: center;
+}
+.nav1 ul li:hover {
+  background-color: rgba(255, 255, 255, 0.349);
+  color: black;
+  box-shadow: 0 0 10px white;
+  border-bottom: 10px;
+}
+header a {
+  color: white;
+}
+.clear {
+  clear: both;
+}
+nav ul {
+  float: right;
+  list-style: none;
+}
+nav li {
+  float: left;
+  margin: 0rem 2rem;
+}
+h2 {
+  background-color: #39c5c6;
+  height: 140px;
+  text-align: center;
+  color: #456abaec;
+  font-size: 50px;
+}
 
-  }
-  .booking-overlay{
-    margin-left: 2%;
-    margin-right: 2%;
-    padding-bottom: 30px;
-    padding-left: 6%;
-    
-  }
-  .choise{
-    display: none;
-    padding-left: 2%;
-    padding-right: 2%;
-  }
-  td,th{
+.feature {
+  font-size: 20px;
+  padding: 50px;
+}
+.inner {
+  background: rgba(0, 0, 0, 0.897);
+  color: rgba(255, 255, 255, 0.836);
+  text-align: center;
+}
+.logos {
+  word-spacing: 90px;
+}
+#information{
+  display: none;
+}
+form{
+  padding:30px 0px 30px 0px ;
+}
+.book-overlay{
+  text-align: center;
+}
+.feature {
     font-size: 20px;
-    color: white;
-  }
-  .choise h2{
-    color:orange;
-    text-align: left;
-  }
-  #your-booking{
-    color: white;
-    font-size: 30px;
-  }#addedprice{
-    display: none;
-  }
-  #finallmessage{
-    display: none;
-    padding-top: 10%;
-    padding-right: 10%;
-    padding-left: 10%;
-    font-size: 28px;
-  }
-  #regards{
+    padding: 50px;
+}
+.inner {
+    background: rgba(0, 0, 0, 0.897);
+    color: rgba(255, 255, 255, 0.836);
     text-align: center;
-    color: aliceblue;
-  }
-  #information{
-    padding-top: 5%;
-    font-size: 22px;
-    padding-right: 8%;
-    padding-left: 5%;
-    color: #ffa500;
-    text-align: center;
-  }
-  h4{
-      color: white;
-      text-align: center;
-      text-decoration: underline;
-  }
-  .check{
-    display: none;
-  }
-  .check{
-    display: none;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-  .header p {
-    font-weight: 400;
-    font-size: x-large;
-    font-family: 'Lobster Two', cursive;
-  }
-  .kenya, p {
-    font-family: 'Rye', cursive;
-    font-size: xx-large;
-  }
+    
+}
+.logos {
+  word-spacing: 90px; 
+
+}
